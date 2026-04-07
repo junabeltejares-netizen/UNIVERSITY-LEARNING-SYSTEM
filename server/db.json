@@ -1,0 +1,840 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "instructor1",
+      "password": "$2a$10$zcB.jY09o5Grrg7JJl4OcuFlfbDeY1Z1QvpEXWW1QeHm7gqTTl3CK",
+      "email": "instructor1@example.com",
+      "role": "instructor",
+      "created_at": "2024-04-01T10:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "username": "student1",
+      "password": "$2a$10$zcB.jY09o5Grrg7JJl4OcuFlfbDeY1Z1QvpEXWW1QeHm7gqTTl3CK",
+      "email": "student1@example.com",
+      "role": "student",
+      "created_at": "2024-04-01T11:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "username": "ohaha",
+      "password": "$2a$10$HffGpxbweXlDSCAw6VdHWOBTRt9NuzsEIvFMhBhhwQMDBF5pOtUWW",
+      "email": "ohaha@gmail.com",
+      "role": "student",
+      "created_at": "2026-04-04T07:08:17.669Z"
+    },
+    {
+      "id": 4,
+      "username": "imongmama",
+      "password": "$2a$10$u4xkmtSN3UcR6de.WMycYOCoOKNqPpbKUJzj2cpa5i25GR.1aR8ea",
+      "email": "canoyjam0@gmail.com",
+      "role": "instructor",
+      "created_at": "2026-04-04T07:15:52.353Z"
+    },
+    {
+      "id": 5,
+      "username": "test_instr",
+      "password": "$2a$10$ZnVfApO8O75hexllBZP/ge59gOerpAU.l4MhHYiFfIq5PMdJedKTu",
+      "email": "instr@test.com",
+      "role": "instructor",
+      "created_at": "2026-04-04T07:23:20.734Z"
+    },
+    {
+      "id": 6,
+      "username": "test_stud",
+      "password": "$2a$10$CvBTTa31spiI90X6JVNLvedbchYlf9hY0Rdchoev3jYxOc0KNB29y",
+      "email": "stud@test.com",
+      "role": "student",
+      "created_at": "2026-04-04T07:24:58.060Z"
+    },
+    {
+      "id": 7,
+      "username": "juna",
+      "password": "$2a$10$uZ2U.xyhVYlT9hD3A3Ilx.5/SJdhNdpigZYoBDCY9ckiNYdk3r8.W",
+      "email": "junabel@gmail.com",
+      "role": "instructor",
+      "created_at": "2026-04-04T09:23:11.562Z"
+    },
+    {
+      "id": 8,
+      "username": "junabel",
+      "password": "$2a$10$4zMZyCGva/DU2/d.GjKtF.ylF8qsT4xqtWCa5u4R3pyim/Hm6sqAa",
+      "email": "junabel@gmail.com",
+      "role": "instructor",
+      "created_at": "2026-04-05T07:53:25.698Z"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "title": "Introduction to Web Development",
+      "description": "Learn the basics of HTML, CSS, and JavaScript to build modern websites.",
+      "instructor_id": 1,
+      "created_at": "2024-04-02T08:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "title": "Advanced Node.js Patterns",
+      "description": "Master asynchronous programming, streams, and architectural patterns in Node.js.",
+      "instructor_id": 1,
+      "created_at": "2024-04-02T09:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "title": "science",
+      "description": "asdasd",
+      "instructor_id": 4,
+      "created_at": "2026-04-04T07:16:14.294Z"
+    },
+    {
+      "id": 4,
+      "title": "Web Security Basics",
+      "description": "Learn the essentials of securing your web apps.",
+      "instructor_id": 5,
+      "created_at": "2026-04-04T07:23:32.356Z"
+    },
+    {
+      "id": 5,
+      "title": "Web Security Basics",
+      "description": "Learn the essentials of securing your web apps.",
+      "instructor_id": 5,
+      "created_at": "2026-04-04T07:24:34.410Z"
+    },
+    {
+      "id": 6,
+      "title": "english",
+      "description": "sefsf",
+      "instructor_id": 4,
+      "created_at": "2026-04-04T07:28:08.103Z"
+    },
+    {
+      "id": 7,
+      "title": "TLE",
+      "description": "gvjhv",
+      "instructor_id": 4,
+      "created_at": "2026-04-04T07:51:33.639Z"
+    },
+    {
+      "id": 8,
+      "title": "yhi",
+      "description": "gghkhk",
+      "instructor_id": 4,
+      "created_at": "2026-04-04T08:07:08.152Z"
+    },
+    {
+      "id": 9,
+      "title": "hjhjhj",
+      "description": "m,m,m,",
+      "instructor_id": 4,
+      "created_at": "2026-04-04T08:07:41.840Z"
+    },
+    {
+      "id": 10,
+      "title": " Discrete",
+      "description": "create a web app using database",
+      "instructor_id": 4,
+      "created_at": "2026-04-04T08:23:31.569Z"
+    },
+    {
+      "id": 11,
+      "title": "Filipino",
+      "description": "Answer the following questions",
+      "instructor_id": 4,
+      "created_at": "2026-04-04T09:19:59.892Z"
+    },
+    {
+      "id": 12,
+      "title": "HCI",
+      "description": "human computer Interaction",
+      "instructor_id": 4,
+      "created_at": "2026-04-04T09:20:42.155Z"
+    },
+    {
+      "id": 13,
+      "title": "Reading the Philippine History",
+      "description": "Assignment",
+      "instructor_id": 4,
+      "created_at": "2026-04-04T09:21:47.748Z"
+    },
+    {
+      "id": 14,
+      "title": "Mathematics in the modern world",
+      "description": "Geometric Pattern",
+      "instructor_id": 4,
+      "created_at": "2026-04-04T09:26:04.733Z"
+    },
+    {
+      "id": 15,
+      "title": "Networking",
+      "description": "gdfhsmdc",
+      "instructor_id": 4,
+      "created_at": "2026-04-04T09:26:50.493Z"
+    },
+    {
+      "id": 16,
+      "title": "Information management",
+      "description": "IM",
+      "instructor_id": 4,
+      "created_at": "2026-04-04T09:27:43.004Z"
+    },
+    {
+      "id": 17,
+      "title": "Contemporary world",
+      "description": "fxhgfx",
+      "instructor_id": 4,
+      "created_at": "2026-04-04T09:28:02.716Z"
+    },
+    {
+      "id": 18,
+      "title": "Pathfit 4",
+      "description": "lea",
+      "instructor_id": 4,
+      "created_at": "2026-04-04T09:28:28.724Z"
+    },
+    {
+      "id": 19,
+      "title": "Fundamental of Database System",
+      "description": "jkdfgvsklkf",
+      "instructor_id": 4,
+      "created_at": "2026-04-04T09:29:45.868Z"
+    },
+    {
+      "id": 20,
+      "title": "Mapeh",
+      "description": "HAHHHAHAHAHA",
+      "instructor_id": 4,
+      "created_at": "2026-04-04T09:30:38.268Z"
+    },
+    {
+      "id": 21,
+      "title": "introduction to ccmputing",
+      "description": ",mnkdlkjn., , .asd ",
+      "instructor_id": 4,
+      "created_at": "2026-04-04T09:31:22.764Z"
+    },
+    {
+      "id": 22,
+      "title": "History",
+      "description": "philippine history",
+      "instructor_id": 4,
+      "created_at": "2026-04-05T05:39:33.857Z"
+    },
+    {
+      "id": 23,
+      "title": "Physical education",
+      "description": "pathfit",
+      "instructor_id": 4,
+      "created_at": "2026-04-05T05:41:03.456Z"
+    },
+    {
+      "id": 24,
+      "title": "Math",
+      "description": "yhetfsjsfgn",
+      "instructor_id": 4,
+      "created_at": "2026-04-05T05:42:02.256Z"
+    },
+    {
+      "id": 25,
+      "title": "Mapeh",
+      "description": "jogging, walking,running",
+      "instructor_id": 4,
+      "created_at": "2026-04-05T05:43:59.103Z"
+    },
+    {
+      "id": 26,
+      "title": "Ethics",
+      "description": "HAHHAAHAHAAHAHAHA",
+      "instructor_id": 4,
+      "created_at": "2026-04-05T05:46:31.295Z"
+    },
+    {
+      "id": 27,
+      "title": "BIOLOGY",
+      "description": "AVDBGH",
+      "instructor_id": 4,
+      "created_at": "2026-04-05T05:50:27.248Z"
+    },
+    {
+      "id": 28,
+      "title": "GEOGRAPHY",
+      "description": "SDH;SALKFM .",
+      "instructor_id": 4,
+      "created_at": "2026-04-05T05:51:02.040Z"
+    },
+    {
+      "id": 29,
+      "title": "Economics",
+      "description": "khdsufbmngd",
+      "instructor_id": 4,
+      "created_at": "2026-04-05T05:53:37.319Z"
+    },
+    {
+      "id": 30,
+      "title": "PHILOSOPHY",
+      "description": "shhhshhshhsh",
+      "instructor_id": 4,
+      "created_at": "2026-04-05T05:54:22.359Z"
+    },
+    {
+      "id": 31,
+      "title": "math",
+      "description": "fdhgd",
+      "instructor_id": 4,
+      "created_at": "2026-04-05T06:24:12.401Z"
+    },
+    {
+      "id": 32,
+      "title": "DATA STRUCTURE",
+      "description": "JBKMDF MN",
+      "instructor_id": 8,
+      "created_at": "2026-04-05T07:54:22.061Z"
+    },
+    {
+      "id": 33,
+      "title": "DISCRETE MATHEMATICS",
+      "description": "dsgsrh",
+      "instructor_id": 8,
+      "created_at": "2026-04-05T07:54:46.797Z"
+    },
+    {
+      "id": 34,
+      "title": "MAPEH",
+      "description": "JOGGING",
+      "instructor_id": 8,
+      "created_at": "2026-04-05T07:57:04.502Z"
+    },
+    {
+      "id": 35,
+      "title": "NETWORKING",
+      "description": "JSADVHJVCBKBC",
+      "instructor_id": 8,
+      "created_at": "2026-04-05T07:57:38.149Z"
+    },
+    {
+      "id": 36,
+      "title": "PE",
+      "description": "PATHFIT",
+      "instructor_id": 8,
+      "created_at": "2026-04-05T07:59:53.919Z"
+    },
+    {
+      "id": 37,
+      "title": "PHILIPPINE HISTORY",
+      "description": "HISTORY",
+      "instructor_id": 8,
+      "created_at": "2026-04-05T08:00:25.694Z"
+    },
+    {
+      "id": 38,
+      "title": "ART AND SCIENCES",
+      "description": "IOSUEFBKSF",
+      "instructor_id": 8,
+      "created_at": "2026-04-05T08:01:54.485Z"
+    },
+    {
+      "id": 39,
+      "title": "oral communication",
+      "description": "oral,essay",
+      "instructor_id": 8,
+      "created_at": "2026-04-05T08:41:36.857Z"
+    },
+    {
+      "id": 40,
+      "title": "Personal development",
+      "description": "perdev",
+      "instructor_id": 8,
+      "created_at": "2026-04-05T08:42:25.671Z"
+    },
+    {
+      "id": 41,
+      "title": "Entrepreneurship",
+      "description": "sdgfhh",
+      "instructor_id": 8,
+      "created_at": "2026-04-05T08:43:29.494Z"
+    },
+    {
+      "id": 42,
+      "title": "GENERAL MATHEMATHECS",
+      "description": "FDGHTRS",
+      "instructor_id": 8,
+      "created_at": "2026-04-05T08:44:07.982Z"
+    },
+    {
+      "id": 43,
+      "title": "ESP",
+      "description": "RGSRTHS",
+      "instructor_id": 8,
+      "created_at": "2026-04-05T08:44:16.182Z"
+    },
+    {
+      "id": 44,
+      "title": "READING AND WRITING",
+      "description": "FGSDH",
+      "instructor_id": 8,
+      "created_at": "2026-04-05T08:44:42.592Z"
+    },
+    {
+      "id": 45,
+      "title": "COMPUTER SCIENCE",
+      "description": "SESGRGDH",
+      "instructor_id": 8,
+      "created_at": "2026-04-05T08:47:45.784Z"
+    },
+    {
+      "id": 46,
+      "title": "LAW",
+      "description": "GFTHJFJ",
+      "instructor_id": 8,
+      "created_at": "2026-04-05T08:47:55.409Z"
+    },
+    {
+      "id": 47,
+      "title": "ACCOUNTING",
+      "description": "RGRHTJHHG",
+      "instructor_id": 8,
+      "created_at": "2026-04-05T08:48:15.145Z"
+    },
+    {
+      "id": 48,
+      "title": "PHYSICS",
+      "description": "EFERHG",
+      "instructor_id": 8,
+      "created_at": "2026-04-05T08:49:25.537Z"
+    },
+    {
+      "id": 49,
+      "title": "POLITICAL SCIENCED",
+      "description": "FGGG",
+      "instructor_id": 8,
+      "created_at": "2026-04-05T08:49:47.065Z"
+    },
+    {
+      "id": 50,
+      "title": "STATISTICS",
+      "description": "THRYDJYTK",
+      "instructor_id": 8,
+      "created_at": "2026-04-05T08:50:05.304Z"
+    },
+    {
+      "id": 51,
+      "title": "GEOGRAPHY",
+      "description": "GFH",
+      "instructor_id": 8,
+      "created_at": "2026-04-05T08:50:25.472Z"
+    },
+    {
+      "id": 52,
+      "title": "BUSINESS",
+      "description": "EGREGH",
+      "instructor_id": 8,
+      "created_at": "2026-04-05T08:50:44.600Z"
+    },
+    {
+      "id": 53,
+      "title": "FINE ARTS",
+      "description": "HGHDFBWA",
+      "instructor_id": 8,
+      "created_at": "2026-04-05T08:51:33.696Z"
+    },
+    {
+      "id": 54,
+      "title": "ARCHITECTURE",
+      "description": "SADFDGAdefgdsgdhfgb",
+      "instructor_id": 8,
+      "created_at": "2026-04-05T08:53:01.880Z"
+    },
+    {
+      "id": 55,
+      "title": "mapeh",
+      "description": "jogging,running",
+      "instructor_id": 8,
+      "created_at": "2026-04-07T06:27:37.536Z"
+    },
+    {
+      "id": 56,
+      "title": "math",
+      "description": "dsdafh",
+      "instructor_id": 8,
+      "created_at": "2026-04-07T06:27:53.287Z"
+    },
+    {
+      "id": 57,
+      "title": "tle",
+      "description": "rgfdd",
+      "instructor_id": 8,
+      "created_at": "2026-04-07T06:28:11.246Z"
+    },
+    {
+      "id": 58,
+      "title": "Science",
+      "description": "oifdksbjf",
+      "instructor_id": 8,
+      "created_at": "2026-04-07T06:28:32.492Z"
+    },
+    {
+      "id": 59,
+      "title": "web development",
+      "description": "asdfsg",
+      "instructor_id": 8,
+      "created_at": "2026-04-07T06:29:56.454Z"
+    },
+    {
+      "id": 60,
+      "title": "networking",
+      "description": "jksdbfc",
+      "instructor_id": 8,
+      "created_at": "2026-04-07T06:30:26.526Z"
+    },
+    {
+      "id": 61,
+      "title": "ethics",
+      "description": "fasg",
+      "instructor_id": 8,
+      "created_at": "2026-04-07T06:30:39.374Z"
+    },
+    {
+      "id": 62,
+      "title": "Digital marketing",
+      "description": "asfdsdafvas",
+      "instructor_id": 8,
+      "created_at": "2026-04-07T06:31:00.725Z"
+    },
+    {
+      "id": 63,
+      "title": "DATA ANALYSIS",
+      "description": "SFSADGVF",
+      "instructor_id": 8,
+      "created_at": "2026-04-07T06:31:23.270Z"
+    },
+    {
+      "id": 64,
+      "title": "DATABASE MANAGEMENT",
+      "description": "HSDB NC X",
+      "instructor_id": 8,
+      "created_at": "2026-04-07T06:31:52.189Z"
+    },
+    {
+      "id": 65,
+      "title": "COMPUTER PROGRAMMING",
+      "description": "ARFESAGF",
+      "instructor_id": 8,
+      "created_at": "2026-04-07T06:32:23.285Z"
+    },
+    {
+      "id": 66,
+      "title": "EPP",
+      "description": "DSVSA",
+      "instructor_id": 8,
+      "created_at": "2026-04-07T06:32:41.318Z"
+    },
+    {
+      "id": 67,
+      "title": "ETHICS",
+      "description": "FDSVS",
+      "instructor_id": 8,
+      "created_at": "2026-04-07T06:32:56.166Z"
+    },
+    {
+      "id": 68,
+      "title": "21ST HISTORY",
+      "description": "GFADB",
+      "instructor_id": 8,
+      "created_at": "2026-04-07T06:33:06.270Z"
+    },
+    {
+      "id": 69,
+      "title": "READING IN THE PHILIPPINE HISTORY",
+      "description": "SDFASDG",
+      "instructor_id": 8,
+      "created_at": "2026-04-07T06:33:25.054Z"
+    },
+    {
+      "id": 70,
+      "title": "PERDEV",
+      "description": "EWFGFSGVFV",
+      "instructor_id": 8,
+      "created_at": "2026-04-07T06:33:42.102Z"
+    },
+    {
+      "id": 71,
+      "title": "READING AND WRITING",
+      "description": "ASDFASEGF",
+      "instructor_id": 8,
+      "created_at": "2026-04-07T06:34:05.342Z"
+    },
+    {
+      "id": 72,
+      "title": "GENSCIE",
+      "description": "DSFAGF",
+      "instructor_id": 8,
+      "created_at": "2026-04-07T06:34:27.590Z"
+    },
+    {
+      "id": 73,
+      "title": "CYBERSECURITY",
+      "description": "DSFSAGADFH",
+      "instructor_id": 8,
+      "created_at": "2026-04-07T06:35:06.127Z"
+    },
+    {
+      "id": 74,
+      "title": "IT PROJECT MANAGEMENT",
+      "description": "SIADHUIBD",
+      "instructor_id": 8,
+      "created_at": "2026-04-07T06:35:37.126Z"
+    },
+    {
+      "id": 75,
+      "title": "DATA STRUCTURES",
+      "description": "FDGBDFSDGV",
+      "instructor_id": 8,
+      "created_at": "2026-04-07T06:37:18.702Z"
+    },
+    {
+      "id": 76,
+      "title": "PBMA",
+      "description": "FERFAE",
+      "instructor_id": 8,
+      "created_at": "2026-04-07T06:37:30.598Z"
+    },
+    {
+      "id": 77,
+      "title": "MARKETING MANAGEMENT",
+      "description": "DSFA",
+      "instructor_id": 8,
+      "created_at": "2026-04-07T06:37:53.022Z"
+    },
+    {
+      "id": 78,
+      "title": "COMPUTER PROGRAMMING",
+      "description": "EFEWF",
+      "instructor_id": 8,
+      "created_at": "2026-04-07T06:38:31.438Z"
+    },
+    {
+      "id": 79,
+      "title": "ARTS AND SCIENCES",
+      "description": "DFSFDS",
+      "instructor_id": 8,
+      "created_at": "2026-04-07T06:38:47.127Z"
+    },
+    {
+      "id": 80,
+      "title": "ENGLISH",
+      "description": "DSFDSAF",
+      "instructor_id": 8,
+      "created_at": "2026-04-07T06:39:06.262Z"
+    },
+    {
+      "id": 81,
+      "title": "HUMAN COMPUTER INTERACTION",
+      "description": "EFR",
+      "instructor_id": 8,
+      "created_at": "2026-04-07T06:41:28.742Z"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": 1,
+      "student_id": 2,
+      "course_id": 1,
+      "enrolled_at": "2024-04-03T10:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "student_id": 3,
+      "course_id": 1,
+      "enrolled_at": "2026-04-04T07:08:36.053Z"
+    },
+    {
+      "id": 3,
+      "student_id": 3,
+      "course_id": 2,
+      "enrolled_at": "2026-04-04T07:10:44.589Z"
+    },
+    {
+      "id": 4,
+      "student_id": 4,
+      "course_id": 2,
+      "enrolled_at": "2026-04-04T07:16:32.357Z"
+    },
+    {
+      "id": 5,
+      "student_id": 3,
+      "course_id": 3,
+      "enrolled_at": "2026-04-04T07:16:45.165Z"
+    },
+    {
+      "id": 6,
+      "student_id": 4,
+      "course_id": 3,
+      "enrolled_at": "2026-04-04T07:17:09.877Z"
+    },
+    {
+      "id": 7,
+      "student_id": 6,
+      "course_id": 5,
+      "enrolled_at": "2026-04-04T07:25:08.645Z"
+    },
+    {
+      "id": 8,
+      "student_id": 4,
+      "course_id": 1,
+      "enrolled_at": "2026-04-04T07:31:02.414Z"
+    },
+    {
+      "id": 9,
+      "student_id": 3,
+      "course_id": 4,
+      "enrolled_at": "2026-04-04T07:35:52.204Z"
+    },
+    {
+      "id": 10,
+      "student_id": 3,
+      "course_id": 5,
+      "enrolled_at": "2026-04-04T07:35:53.308Z"
+    },
+    {
+      "id": 11,
+      "student_id": 3,
+      "course_id": 6,
+      "enrolled_at": "2026-04-04T07:35:54.709Z"
+    },
+    {
+      "id": 12,
+      "student_id": 4,
+      "course_id": 4,
+      "enrolled_at": "2026-04-04T07:48:37.999Z"
+    },
+    {
+      "id": 13,
+      "student_id": 4,
+      "course_id": 5,
+      "enrolled_at": "2026-04-04T07:51:49.599Z"
+    },
+    {
+      "id": 14,
+      "student_id": 4,
+      "course_id": 7,
+      "enrolled_at": "2026-04-04T07:52:43.183Z"
+    },
+    {
+      "id": 15,
+      "student_id": 3,
+      "course_id": 7,
+      "enrolled_at": "2026-04-04T07:53:11.310Z"
+    },
+    {
+      "id": 16,
+      "student_id": 3,
+      "course_id": 10,
+      "enrolled_at": "2026-04-05T06:27:16.944Z"
+    },
+    {
+      "id": 17,
+      "student_id": 3,
+      "course_id": 33,
+      "enrolled_at": "2026-04-05T07:55:37.453Z"
+    },
+    {
+      "id": 18,
+      "student_id": 3,
+      "course_id": 37,
+      "enrolled_at": "2026-04-05T08:03:12.286Z"
+    },
+    {
+      "id": 19,
+      "student_id": 3,
+      "course_id": 36,
+      "enrolled_at": "2026-04-05T08:03:23.901Z"
+    },
+    {
+      "id": 20,
+      "student_id": 3,
+      "course_id": 78,
+      "enrolled_at": "2026-04-07T06:42:47.135Z"
+    },
+    {
+      "id": 21,
+      "student_id": 3,
+      "course_id": 81,
+      "enrolled_at": "2026-04-07T06:43:03.062Z"
+    },
+    {
+      "id": 22,
+      "student_id": 3,
+      "course_id": 15,
+      "enrolled_at": "2026-04-07T06:43:12.134Z"
+    }
+  ],
+  "modules": [
+    {
+      "id": 1,
+      "course_id": 1,
+      "title": "Module 1: Getting Started",
+      "display_order": 1,
+      "created_at": "2024-04-02T08:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "course_id": 5,
+      "title": "Module 1: Authentication Hacks",
+      "display_order": 0,
+      "created_at": "2026-04-04T07:24:34.469Z"
+    },
+    {
+      "id": 4,
+      "course_id": 6,
+      "title": "assisgnment",
+      "display_order": 0,
+      "created_at": "2026-04-05T07:33:12.101Z"
+    },
+    {
+      "id": 5,
+      "course_id": 9,
+      "title": "jksadhdsj",
+      "display_order": 0,
+      "created_at": "2026-04-05T07:37:35.941Z"
+    },
+    {
+      "id": 6,
+      "course_id": 8,
+      "title": "science",
+      "display_order": 0,
+      "created_at": "2026-04-05T07:44:25.649Z"
+    },
+    {
+      "id": 6,
+      "course_id": 3,
+      "title": "science",
+      "display_order": 0,
+      "created_at": "2026-04-05T07:49:05.476Z"
+    },
+    {
+      "id": 7,
+      "course_id": 32,
+      "title": "science",
+      "display_order": 0,
+      "created_at": "2026-04-05T08:21:25.382Z"
+    }
+  ],
+  "lessons": [
+    {
+      "id": 1,
+      "module_id": 1,
+      "title": "Lesson 1: Introduction to HTML",
+      "content": "HTML stands for HyperText Markup Language...",
+      "display_order": 1,
+      "created_at": "2024-04-02T08:45:00.000Z"
+    },
+    {
+      "id": 2,
+      "module_id": 6,
+      "title": "genetics",
+      "content": "fsadascd bgfgbhg",
+      "display_order": 0,
+      "created_at": "2026-04-05T07:51:22.197Z"
+    }
+  ]
+}
